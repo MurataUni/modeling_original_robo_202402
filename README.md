@@ -15,5 +15,6 @@
 
 ## Usage
 
+1. _parts_reversed/reverse.pyを実行
 1. _parts_renamed/rename_parts.pyを実行
 1. modeling_posed.pyを実行
