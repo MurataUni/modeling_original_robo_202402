@@ -26,8 +26,8 @@ def main():
     pw.remove_rotation_all()
 
     objects, scale = sw.load_bones(pw)
-    # sw.load_submodules_name_match(objects, PathInfo.dirs_parts_assembly, Const.alias)
-    sw.load_submodules_name_match(objects, PathInfo.dirs_parts_assembly, Const.alias_parts_premerged)
+    # sw.load_submodules_name_match(objects, PathInfo.dirs_parts_assembly, Const.alias) # 掌、指などが個別に定義されたモデルを使用する場合
+    sw.load_submodules_name_match(objects, PathInfo.dirs_parts_assembly, Const.alias_parts_premerged) # 手首以降だけ先にマージしたモデルを使用する場合
 
     sw.generate_stl_binary(path, fname=fname, concatinated=False)
 
