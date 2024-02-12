@@ -1,6 +1,9 @@
 オリジナルのロボデザイン(2024/02)
 ====
 
+<img src="https://github.com/MurataUni/modeling_original_robo_202402/assets/105286133/c3ccdeb1-5ac6-46b2-8652-149c2e8a01c2" width=240/>
+
+
 ## Description
 
 このリポジトリには以下が含まれる
